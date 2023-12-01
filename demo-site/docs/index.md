@@ -1,6 +1,6 @@
 # `mkdocs-pyscript` demo site
 
-This page demos how PyScript can be used to make online documentation interactive. It is one of the demos created for the conference talk 'Making Your Documentation Interactive with PyScript' by Jeff Glass. See [more details on that talk](https://github.com/JeffersGlass/pyscript-docs-demo-S3) or [the code for this site](https://github.com/JeffersGlass/mkdocs-pyscript-demo) on GitHub.
+This page demos how PyScript can be used to make online documentation interactive. It is one of the demos created for the conference talk 'Making Your Documentation Interactive with PyScript' by Jeff Glass. See [more details on that talk](https://github.com/JeffersGlass/using-pyscript-in-documentation) or [the code for this site](https://github.com/JeffersGlass/mkdocs-pyscript-demo) on GitHub.
 
 
 ## The Datetime Module
