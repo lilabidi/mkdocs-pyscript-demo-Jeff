@@ -1,0 +1,3 @@
+site_name: mkdocs-pyscript demo
+plugins:
+  - mkdocs-pyscript
