@@ -1,3 +1,8 @@
 site_name: mkdocs-pyscript demo
 plugins:
   - mkdocs-pyscript
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - Python: test.py
