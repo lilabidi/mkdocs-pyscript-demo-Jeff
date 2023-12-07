@@ -12,19 +12,14 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+     - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-        
-      - name: Cache dependencies
+      - name: Cache
         uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
 
       - name: Install dependencies
         run: |
