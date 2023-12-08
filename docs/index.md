@@ -32,18 +32,19 @@ from datetime import datetime
 d_3 = datetime(2023, 12, 14, 16, 30)
 d_4 = datetime(2024, 5, 13, 11, 15)
 print(d_3 - d_4)
+```
+<br>
+    `
+    # Fonction non executable pour afficher une une fonction avec mathplotlib
+    import matplotlib.pyplot as plt
+    import numpy as np
 
-# Fonction pour afficher une une fonction avec mathplotlib
-
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
-plt.plot(x, np.sin(x))       # Plot the sine of each x point
-plt.show()                   # Display the plot
-
-for i in x:
+    x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
+    plt.plot(x, np.sin(x))       # Plot the sine of each x point
+    plt.show()                   # Display the plot
+    `
+<br>
+```py
+for i in range(20):
     print(i)
-
 ```
