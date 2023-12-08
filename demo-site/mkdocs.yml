@@ -1,4 +1,5 @@
 site_name: mkdocs-pyscript demo
+docs_dir: demo-site/docs
 plugins:
   - mkdocs-pyscript
   - mkdocs-jupyter
