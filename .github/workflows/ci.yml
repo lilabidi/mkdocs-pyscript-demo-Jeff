@@ -10,31 +10,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
-      - run: pip install mkdocs
-      - run: pip install mkdocs-pyscript
-      - run: mkdocs gh-pages --force  #la commande mkdocs build est implicitement executée
-
-
-      name: ci 
-on:
-  push:
-    branches:
-      - master 
-      - main
-permissions:
-  contents: write
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
         run: |
