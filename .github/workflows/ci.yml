@@ -18,6 +18,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
+      - run: pip install mkdocs
       - run: pip install mkdocs-pyscript
       - run: mkdocs gh-pages --force  #la commande mkdocs build est implicitement executée
